@@ -1,6 +1,6 @@
 # Docker
 ## Init Docker
-1. Open the Command Palette (Ctrl+Shift+P) and use `Containers: Add Docker Files to Workspace...` command
+1. Open the Command Palette `Ctrl+Shift+P` and use `Containers: Add Docker Files to Workspace...` command
 2. Select `Node.js` when prompted for the application platform.
 3. Choose the default `package.json` file.
 4. Enter `3000` when prompted for the application port.
@@ -17,3 +17,9 @@
 
 ## Run the service container
 1. Right-click on the image built in the previous section and select `Run` or `Run Interactive`. The container should start and you should be able to see it in the `Containers` view
+
+## Docker command
+1. List images: `docker images`
+2. Remove image: `docker rmi your-image-name`
+3. Build and Tag: `docker build -t username/your-image-name:v1.0.1 .`, open the `Container` explorer and verify that the new image is visible in the `Images` view
+4. Push image to Docker Hub: `docker push username/your-image-name:v1.0.1`
