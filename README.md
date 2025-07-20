@@ -5,7 +5,7 @@ A starter Express project using official express-generator, Docker, and GitHub A
 
 - 📦 **Official express-generator** structure
 - 🐳 **Docker** ready
-- 🛠️ **GitHub Actions** for upload and CI/CD
+- 🛠️ **GitHub Actions** Upload to trigger CI/CD
 
 ## Official express-generator
 ### Step-by-step:
