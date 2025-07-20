@@ -45,9 +45,7 @@ jobs:
       with:
         context: .
         push: true
-        tags: |
-          liuarthur0731/github-ci-nodejs-express:latest
-          liuarthur0731/github-ci-nodejs-express:${{ github.ref_name }}
+        tags: liuarthur0731/github-ci-nodejs-express:${{ github.ref_name }}
 
     - name: Show GitHub context
       run: |

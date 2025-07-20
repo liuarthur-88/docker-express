@@ -46,19 +46,19 @@ A starter Express project using official express-generator, Docker, and GitHub A
 ### Commit the Code
 ```bash
     git add .
-    git commit -m "initial commit"
+    git commit -m "v.1.0.0"
 ```
 
 ### Push to GitHub
 ```bash
-    git branch -M main
-    git push -u origin main
+    git branch -M main                  # Rename the current branch to 'main'
+    git push -u origin main             # Push the 'main' branch to remote and set upstream
 ```
 
 ### Tag the Commit (Optional)
 ```bash
-    git tag initial-commit
-    git push origin initial-commit
+    git tag v.1.0.0                     # Create a tag pointing to the current commit
+    git push origin v.1.0.0             # Push the tag to remote
 ```
 
 ### Final Version (Best Practice)
