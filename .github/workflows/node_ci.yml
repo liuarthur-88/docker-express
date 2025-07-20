@@ -3,6 +3,8 @@ name: NodeJS and Docker Practice
 on:
   push:
     branches: [ "main" ]
+    tags:
+      - 'v*.*.*'
   pull_request:
     branches: [ "main" ]
 
@@ -44,4 +46,3 @@ jobs:
         context: .
         push: true
         tags: liuarthur0731/github-ci-nodejs-express:${{ github.ref_name }}
-        
