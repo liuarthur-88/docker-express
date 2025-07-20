@@ -135,10 +135,10 @@
 To make a local `sys-config.json` file available inside a container:
 
 ```
-docker run --rm -v C:\path\to\sys-config.json:/app/sys-config.json your-image-name
+docker run --rm -v C:\path\to\folder:/app/folder your-image-name
 ```
 
-> Replace `C:\path\to\sys-config.json` with the actual path to your file.
-> On macOS/Linux, use `$(pwd)/sys-config.json` instead.
+> Replace `C:\path\to\folder` with the actual path to your file.
+> On macOS/Linux, use `$(pwd)/folder` instead.
 
 ---
